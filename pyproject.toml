@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "uddi-self-service-example"
-version = "0.1.0"
+version = "0.2.0"
 description = "Self-service portal for Universal DDI: subnets, DNS zones, records, and IP allocation"
 readme = "README.md"
 requires-python = ">=3.10"

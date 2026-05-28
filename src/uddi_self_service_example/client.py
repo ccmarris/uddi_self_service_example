@@ -5,7 +5,7 @@
  Author: Chris Marrison
  Description: Universal DDI API client wrapper for the self-service portal
 
- Copyright (c) 2025 Chris Marrison / Infoblox
+ Copyright (c) 2026 Chris Marrison / Infoblox
  SPDX-License-Identifier: BSD-2-Clause
 '''
 
@@ -579,7 +579,7 @@ class PortalClient:
         self._address_api.delete(id=address_id)
 
     # ------------------------------------------------------------------
-    # List / discovery helpers
+    # List / view helpers
     # ------------------------------------------------------------------
 
     def list_ip_spaces(self, filter_expr: Optional[str] = None,

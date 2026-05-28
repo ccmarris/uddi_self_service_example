@@ -6,7 +6,7 @@ Self-service portal example for Infoblox Universal DDI. Demonstrates how to:
 - **Provision** a subnet plus forward/reverse DNS zones in one command
 - Create and modify **authoritative DNS zones** and **resource records**
 - Allocate and release **IP addresses**
-- **Discover** available IP spaces, DNS views, and address blocks
+- **View** available IP spaces, DNS views, and address blocks
 - Output results as **text, JSON, or table** for scripting and reporting
 
 ## Quick start
@@ -66,7 +66,7 @@ SUBNET_ID=$(uddi-self-service -o json create-subnet \
 
 ---
 
-### Discover — find resource IDs before operating
+### View — find resource IDs before operating
 
 List IP spaces:
 

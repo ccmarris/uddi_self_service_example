@@ -5,7 +5,7 @@
  Author: Chris Marrison
  Description: Flask web interface for the Universal DDI self-service portal
 
- Copyright (c) 2025 Chris Marrison / Infoblox
+ Copyright (c) 2026 Chris Marrison / Infoblox
  SPDX-License-Identifier: BSD-2-Clause
 '''
 
@@ -120,7 +120,7 @@ def api_overview():
 
 
 # ------------------------------------------------------------------
-# Discover routes
+# View routes
 # ------------------------------------------------------------------
 
 @app.route('/ops/list-spaces', methods=['POST'])

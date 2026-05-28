@@ -5,7 +5,7 @@
  Author: Chris Marrison
  Description: Self-service portal operations for Universal DDI
 
- Copyright (c) 2025 Chris Marrison / Infoblox
+ Copyright (c) 2026 Chris Marrison / Infoblox
  SPDX-License-Identifier: BSD-2-Clause
 '''
 
@@ -741,7 +741,7 @@ def provision(client: PortalClient, tag_key: str, tag_value: str, cidr: int,
 
 
 # ------------------------------------------------------------------
-# List / discovery operations
+# List / view operations
 # ------------------------------------------------------------------
 
 def list_ip_spaces(client: PortalClient, name_filter: Optional[str] = None,

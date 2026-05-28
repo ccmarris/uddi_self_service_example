@@ -5,7 +5,7 @@
  Author: Chris Marrison
  Description: Output formatting for uddi_self_service_example
 
- Copyright (c) 2025 Chris Marrison / Infoblox
+ Copyright (c) 2026 Chris Marrison / Infoblox
  SPDX-License-Identifier: BSD-2-Clause
 '''
 

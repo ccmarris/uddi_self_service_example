@@ -5,7 +5,7 @@
  Author: Chris Marrison
  Description: Unit tests for portal.py
 
- Copyright (c) 2025 Chris Marrison / Infoblox
+ Copyright (c) 2026 Chris Marrison / Infoblox
  SPDX-License-Identifier: BSD-2-Clause
 '''
 
@@ -537,7 +537,7 @@ class TestProvision:
 
 
 # ------------------------------------------------------------------
-# List / discovery
+# List / view
 # ------------------------------------------------------------------
 
 class TestListIpSpaces:

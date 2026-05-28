@@ -5,10 +5,10 @@
  Author: Chris Marrison
  Description: Self-service portal for Universal DDI
 
- Copyright (c) 2025 Chris Marrison / Infoblox
+ Copyright (c) 2026 Chris Marrison / Infoblox
  SPDX-License-Identifier: BSD-2-Clause
 '''
 
-__version__ = '0.1.0'
+__version__ = '0.2.0'
 __author__ = 'Chris Marrison'
 __author_email__ = 'chris@infoblox.com'
