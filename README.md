@@ -199,6 +199,22 @@ uddi-self-service release-ip    --id "ipam/address/ip1" --yes
 
 ---
 
+## Development with Claude Code
+
+This project was developed with the assistance of [Claude Code](https://claude.ai/claude-code), Anthropic's agentic coding tool.
+
+Claude Code was used to:
+
+- Design and implement the Flask web portal and HTMX-driven UI
+- Build the drilldown navigation hierarchy (IP spaces → subnets → addresses; DNS views → zones → records)
+- Add inline edit and delete actions to all data panels
+- Refactor the interface from a tab-based layout to a collapsible sidebar
+- Write and maintain unit tests
+
+> **Note:** All generated code was reviewed and tested before use. AI-assisted development does not replace human oversight — review any AI-generated changes carefully before committing or deploying.
+
+---
+
 ## Project layout
 
 ```
