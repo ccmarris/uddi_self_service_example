@@ -643,6 +643,21 @@ class PortalClient:
         resp = self._subnet_api.list(filter=combined, tfilter=tfilter)
         return resp.results or []
 
+    def list_addresses(self, subnet_id: str) -> list:
+        '''
+        List IP address objects allocated within a subnet.
+
+        Parameters:
+            subnet_id (str): resource ID of the subnet to query
+
+        Returns:
+            list: Address objects
+        '''
+        filter_expr = f'subnet=="{subnet_id}"'
+        logger.debug('Listing addresses in subnet %s', subnet_id)
+        resp = self._address_api.list(filter=filter_expr)
+        return resp.results or []
+
     def list_address_blocks(self, filter_expr: Optional[str] = None,
                             tfilter: Optional[str] = None,
                             space: Optional[str] = None) -> list:
